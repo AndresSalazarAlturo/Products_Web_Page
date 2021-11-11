@@ -12,6 +12,14 @@ h1 {
     text-align: center;
     font-family: cursive;
     }
+  
+h4{
+  color: blueviolet;
+  margin-bottom: auto;
+  margin-top: 10%;
+  text-align: left;
+  font-family: cursive;
+}
 
 .Imagen img{
     height: 200px;
@@ -33,7 +41,23 @@ footer{
     color: aquamarines;
 }
 
+/* Estilos de comentarios*/
 
+.comentarios input{
+  position: relative;
+  left: auto;
+  margin-top: 10px;
+  margin-left: auto;
+  background-color:blueviolet;
+}
+
+.comentarios textarea{
+  position: relative;
+  left: auto;
+  margin-top: 10px;
+  margin-left: auto;
+  background-color:blueviolet;
+}
 /* Estilos de las pestañas*/
 
 .t-container {
@@ -85,10 +109,10 @@ footer{
     z-index: 1;
     position: relative;
     max-height: 0;
-    transition: max-height 0.5s ease 0s;
+    /*transition: max-height 0.5s ease 0s;*/
     overflow: hidden;
   }
   .t-content.selected {
     max-height: 3000px;
-    transition: max-height 1.25s ease 0.5s;
+    /*transition: max-height 1.25s ease 0.5s;*/
   }
